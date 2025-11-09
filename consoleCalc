@@ -29,10 +29,10 @@ def div():
 
 while True:
     print("\n--- Calculator Menu ---")
-    print("Type 1 for Addition")
-    print("Type 2 for Subtraction")
-    print("Type 3 for Multiplication")
-    print("Type 4 for Division")
+    print("Type 1 for Addition ➕")
+    print("Type 2 for Subtraction ➖")
+    print("Type 3 for Multiplication ✖️")
+    print("Type 4 for Division ➗")
     print("Type 0 to Exit")
 
     choice = input("Enter your choice: ")
