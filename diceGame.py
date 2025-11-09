@@ -1,9 +1,8 @@
 import random
 import time
 
-authPlayers = ["Ohajimetochukwu", "Rory", "Flynn", "Priestly", "Zimoke", "Sylvester"]
-bannedPlayers = ["Mustapha", "Ephraim", "Ore", "Gabriel", "Gabe", "Musty", "MAJ", "Joel",
-                 "Priest", "Daniel", "fish", "FISH", "frimpong", "israel", "Israel"]
+authPlayers = ["Jim","Tom","Jason","Nicky"]
+bannedPlayers = ["Bob","Timothy","Jackson","Steve"]
 
 score1 = 0
 score2 = 0
@@ -16,7 +15,7 @@ while True:
         print("YOU ARE BANNED ❌")
         exit()
     elif user1 not in authPlayers:
-        print("Ask Glorious King Ohajimetochukwu to apply.")
+        print("Ask Jim to apply.")
         exit()
     else:
         print("Verified ✅")
@@ -27,7 +26,7 @@ while True:
         print("YOU ARE BANNED ❌")
         exit()
     elif user2 not in authPlayers:
-        print("Ask Glorious King Ohajimetochukwu to apply.")
+        print("Ask Jim to apply.")
         exit()
     elif user1 == user2:
         print("Can't be the same person. Restarting...")
@@ -87,3 +86,8 @@ elif score2 > score1:
     print(f"🎉 {user2} wins!")
 else:
     print("It's a tie!")
+
+for i in range(5, 0, -1):
+    print(f"Closing IN {i}s")
+    time.sleep(1)
+print()
